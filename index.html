@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <div class="container max-w-[1700px] flex justify-center py-3 bg-black">
+        <img class="image max-w-[200px] rounded-xl" src="logo.png" alt="wscube tech">
+
+    </div>
+
+    <div class="max-w-[1100] border border-1 bg-black">
+        <h1 class="text-center text-white text-xl md:text-2xl lg:text-5xl py-5 font-bold">Find your next favorite meal</h1>
+        <p class="text-white text-center py-5">Search hundreds of recipes by name, ingredient, or cuisine.</p>
+      <input 
+    type="text" 
+    placeholder="Try pasta, spicy, breakfast..."
+    class="block mx-auto w-full max-w-xl text-center bg-[#071540] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-blue-500 transition shadow-md">
+    <div class="flex flex-wrap justify-center gap-3 mt-6">
+
+                <button class="px-4 py-2 bg-white text-black rounded-full text-sm font-medium hover:scale-105 transition">
+                    All
+                </button>
+
+                <button class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Quick
+                </button>
+
+                <button class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Vegetarian
+                </button>
+
+                <button class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Healthy
+                </button>
+
+                <button class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Dessert
+                </button>
+
+                <button class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Spicy
+                </button>
+
+            </div>
+        <div class="row py-5 px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img src="dish1.jpg">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Creamy Garlic Pasta
+                        </h3>
+
+                        <span class="bg-blue-600 text-xs px-2 py-1 rounded text-white">
+                            Easy
+                        </span>
+                    </div>
+                    <p class="text-white">Silky parmesan cream with roasted garlic.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Healthy</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Italian</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Pasta</span>
+                </div>
+            </div>
+
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img src="dish2.jpg" alt="Veg Buddha Bowl">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Veg Buddha Bowl
+                        </h3>
+
+                        <span class="bg-red-600 text-xs px-2 py-1 rounded text-white">
+                            Healthy
+                        </span>
+                    </div>
+                    <p class="text-white">Fresh vegetables, quinoa, and creamy avocado.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Vegetarian</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Healthy</span>
+                </div>
+            </div>
+
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img class="w-full h-56 object-cover"
+                        src="dish3.jpg" alt="Margherita Pizza">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Margherita Pizza
+                        </h3>
+
+                        <span class="bg-gray-600 text-xs px-2 py-1 rounded text-white">
+                            Medium
+                        </span>
+                    </div>
+                    <p class="text-white">Silky parmesan cream with roasted garlic.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Italian</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Vegetarian</span>
+                </div>
+            </div>
+
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img class="w-full h-56 object-cover"
+                        src="dish4.jpg">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Margherita Pizza
+                        </h3>
+
+                        <span class="bg-green-600 text-xs px-2 py-1 rounded text-white">
+                            Easy
+                        </span>
+                    </div>
+                    <h6 class="text-white">Creamy Garlic Pasta</h6>
+                    <p class="text-white">Silky parmesan cream with roasted garlic.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Breakfast</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Healthy</span>
+                </div>
+            </div>
+
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img class="w-full h-56 object-cover"
+                        src="dish5.jpg" alt="Avocado Toast">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Avocado Toast
+                        </h3>
+
+                        <span class="bg-green-600 text-xs px-2 py-1 rounded text-white">
+                            Healthy
+                        </span>
+                    </div>
+                    <p class="text-white">Silky parmesan cream with roasted garlic.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Breakfast</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Healthy</span>
+                </div>
+            </div>
+
+            <div
+                class="card max-w-[320px] border border-1 bg-[#071540] rounded-xl hover:scale-[1.05] transition duration-300">
+                <div class="image overflow-hidden rounded-xl ">
+                    <img class="w-full h-56 object-cover"
+                        src="dish6.jpg" alt="Rainbow Salad Bowl">
+                </div>
+                <div class="content p-3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-white font-semibold">
+                            Rainbow Salad Bowl
+                        </h3>
+
+                        <span class="bg-red-600 text-xs px-2 py-1 rounded text-white">
+                            Quick
+                        </span>
+                    </div>
+                    <p class="text-white">Silky parmesan cream with roasted garlic.</p>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Asian</span>
+                    <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Vegetarian</span>
+
+                </div>
+                </div>
+            </div>
+            <footer class="bg-[#071540] border-t border-gray-700 mt-12">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <p class="text-center text-gray-400 text-sm md:text-base">
+                © 2026 WS Restaurant. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
